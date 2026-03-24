@@ -8,7 +8,7 @@
 
 ## セットアップ
 
-1. `.env.example.txt` を参考に `.env` を作成します。
+1. `.env.example` を参考に `.env` を作成します。
 2. `GEMINI_API_KEY` に Gemini API のキーを設定します。
 3. 必要なら `GEMINI_MODEL` を変更します。未設定時は `gemini-2.0-flash` を使います。
 
