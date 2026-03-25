@@ -191,7 +191,7 @@ def format_candidates_for_llm(candidates: list[Candidate]) -> str:
 def build_llm_prompt(candidates: list[Candidate], criteria: list[Criterion]) -> str:
     return "\n\n".join(
         [
-            "あなたは研究室や班の代表候補を選ぶ審査役です。",
+            "あなたは研究室の謝恩会の代表候補を選ぶ中立な審査役です。",
             "候補者の意気込みを読み、評価基準に沿って最も適した代表候補を1名だけ選んでください。",
             "出力は必ず JSON オブジェクト1つだけにしてください。余計な説明や Markdown は不要です。",
             (
